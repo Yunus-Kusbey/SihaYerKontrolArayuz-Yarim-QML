@@ -53,7 +53,7 @@ Map {
     }
 
     // -- Koordinatları Gösteren Panel --
-    Rectangle {
+    /*Rectangle {
         anchors.bottom: parent.bottom
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.bottomMargin: 20
@@ -71,7 +71,7 @@ Map {
             text: "Lat: %1, Lon: %2".arg(map.center.latitude.toFixed(4)).arg(map.center.longitude.toFixed(4))
         }
     }
-
+    */
     //----------------------------------------------------------------
     // 3. KONTROL BUTONLARI
     //----------------------------------------------------------------

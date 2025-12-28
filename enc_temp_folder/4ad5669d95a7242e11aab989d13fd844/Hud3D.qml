@@ -10,9 +10,11 @@ Rectangle {
     id: hud
     color: "transparent"
     radius: 12
-    
+
+
+
     property color hudColor: "#00f7c8"
-    // C++ tarafý bunlarý set ediyor
+    // C++ tarafý bunlarý set ediyor:
     property real rollDeg: 0      // roll (kanat yuvarlanmasý)
     property real pitchDeg: 0    // pitch (burun yukarý-aþaðý)
     property real yawDeg: 0       // yaw (sað-sol yönelim)
@@ -37,7 +39,9 @@ Rectangle {
         width:parent.width * 2
         fillMode: Image.PreserveAspectFit
         z:5
-
+        // Matematiksel Kaydýrma:
+        // yawDeg 0 iken þeridin tam ortasý (180 derece) merkezde olsun diyorsak:
+        // x = (GörünürGeniþlik / 2) - (yawDeg * dereceBaþýnaPiksel)
         readonly property real degreeWidth: 4.37 // Her 1 derece kaç piksel?
         x: (hdgContainer.width / 2) - (yawDeg * degreeWidth)
 
@@ -47,7 +51,6 @@ Rectangle {
             easing.type: Easing.OutCubic}
         }
     }
-
     View3D {
         anchors.fill: parent
         anchors.margins: 0
@@ -66,7 +69,7 @@ Rectangle {
         scale: Qt.vector3d(500, 1, 500)   // geniþlik ve derinlik
         position: Qt.vector3d(0, -140, 0)  // biraz aþaðýya koy
         materials: PrincipledMaterial {
-        baseColor: "#A0522D"   // sýcak toprak rengi
+            baseColor: "#A0522D"   // sýcak toprak rengi
         roughness: 0.9         // mat görünüm
         metalness: 0.0         // metalik deðil
         emissiveFactor: 0.05 

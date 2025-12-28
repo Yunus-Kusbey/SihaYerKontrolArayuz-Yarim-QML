@@ -4,5 +4,6 @@
         <file>ucak.stl</file>
         <file>ucak.glb</file>
         <file>ucak.mesh</file>
+        <file>compass-dark.png</file>
     </qresource>
 </RCC>

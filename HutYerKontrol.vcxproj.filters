@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Source Files\qml">
+      <UniqueIdentifier>{99daf487-e8a5-4171-a105-f86b75327038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\qml\Top">
+      <UniqueIdentifier>{e2595a58-d500-44a6-a15c-039304848ada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\qml\Bottom">
+      <UniqueIdentifier>{3bacfb6c-dda0-404f-a423-7da9a47f7dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\assets">
+      <UniqueIdentifier>{ac815ebe-c5e8-4db8-838f-053a60c6a285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source">
+      <UniqueIdentifier>{6274e52e-e9f5-4896-9064-fdef364bfe61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source\Map">
+      <UniqueIdentifier>{5346583b-1f29-4158-bbd8-1c6a80eae2c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source\Camera">
+      <UniqueIdentifier>{21364015-5fc8-48ea-b2d3-d32119521234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source\Hud">
+      <UniqueIdentifier>{7effc9e2-815b-474d-aac3-b8320b811b5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\source\Command">
+      <UniqueIdentifier>{63c87e37-b985-4dd6-b7fd-51c5554f008d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="qml\Top\Map.qml">
+      <Filter>Source Files\qml\Top</Filter>
+    </None>
+    <None Include="qml\Top\MapButton.qml">
+      <Filter>Source Files\qml\Top</Filter>
+    </None>
+    <None Include="qml\Top\TopContainer.qml">
+      <Filter>Source Files\qml\Top</Filter>
+    </None>
+    <None Include="qml\Bottom\BottomContainer.qml">
+      <Filter>Source Files\qml\Bottom</Filter>
+    </None>
+    <None Include="qml\Bottom\CameraPanel.qml">
+      <Filter>Source Files\qml\Bottom</Filter>
+    </None>
+    <None Include="qml\Bottom\CommandButton.qml">
+      <Filter>Source Files\qml\Bottom</Filter>
+    </None>
+    <None Include="qml\Bottom\CommandPanel.qml">
+      <Filter>Source Files\qml\Bottom</Filter>
+    </None>
+    <None Include="qml\Bottom\Hud3D.qml">
+      <Filter>Source Files\qml\Bottom</Filter>
+    </None>
+    <None Include="qml\main.qml">
+      <Filter>Source Files\qml</Filter>
+    </None>
+    <None Include="qml\Bottom\CommandMenuButton.qml">
+      <Filter>Source Files\qml\Bottom</Filter>
+    </None>
+    <None Include="assets\ucak.stl">
+      <Filter>Source Files\assets</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Source Files\source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\command_mission.cpp">
+      <Filter>Source Files\source\Command</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="source\source.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtRcc Include="qml\qml.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtRcc Include="assets\assets.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="source\command_mission.h">
+      <Filter>Source Files\source\Command</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>

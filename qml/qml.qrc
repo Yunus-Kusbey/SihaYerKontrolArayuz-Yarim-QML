@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/qml">
+        <file>main.qml</file>
+        <file>Bottom/BottomContainer.qml</file>
+        <file>Bottom/CameraPanel.qml</file>
+        <file>Bottom/CommandButton.qml</file>
+        <file>Bottom/CommandMenuButton.qml</file>
+        <file>Bottom/CommandPanel.qml</file>
+        <file>Bottom/Hud3D.qml</file>
+        <file>Top/Map.qml</file>
+        <file>Top/MapButton.qml</file>
+        <file>Top/TopContainer.qml</file>
+    </qresource>
+</RCC>

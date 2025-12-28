@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>home.png</file>
+        <file>ucak.stl</file>
+        <file>ucak.glb</file>
+        <file>ucak.mesh</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/source">
+        <file>command_mission.cpp</file>
+        <file>command_mission.h</file>
+    </qresource>
+</RCC>

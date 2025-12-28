@@ -1,0 +1,1 @@
+& "C:\Qt\6.10.0\msvc2022_64\bin\balsam.exe" -o ucak_mesh ucak.stl
